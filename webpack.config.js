@@ -14,8 +14,8 @@ const config = {
 	},
   output: {
 		filename: '[name].js',
-    path: path.join(__dirname, './build'),
-    publicPath: '/build',
+    path: path.join(__dirname, '/'),
+    publicPath: '/',
   },
   module: {
     loaders: [{
